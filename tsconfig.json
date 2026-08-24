@@ -3,8 +3,10 @@
     "outDir": "./dist",
     "target": "ES2022",
     "module": "commonjs",
+    "types": ["node", "jest"],
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noEmitOnError": true
-  }
+  },
+  "exlude": ["./tests"]
 }

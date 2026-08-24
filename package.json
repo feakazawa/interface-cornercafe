@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "The café next to campus wants an app for taking orders. Right now the staff write everything on paper, and the paper gets wet. You have been asked to build the part of the app that keeps track of orders and works out the price.",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,12 @@
   },
   "homepage": "https://github.com/feakazawa/interface-cornercafe#readme",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.14",
+    "ts-jest": "^29.1.2"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
   }
 }
