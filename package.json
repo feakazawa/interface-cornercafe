@@ -1,0 +1,24 @@
+{
+  "name": "interface-cornercafe",
+  "version": "1.0.0",
+  "description": "The café next to campus wants an app for taking orders. Right now the staff write everything on paper, and the paper gets wet. You have been asked to build the part of the app that keeps track of orders and works out the price.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feakazawa/interface-cornercafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/feakazawa/interface-cornercafe/issues"
+  },
+  "homepage": "https://github.com/feakazawa/interface-cornercafe#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
